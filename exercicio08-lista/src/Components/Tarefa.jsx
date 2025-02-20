@@ -6,16 +6,16 @@ const [tema, setTema] = useState(false);
 const [tarefa, setTarefa] = useState('Concluir')
 
 const Botao = () => {setTema(!tema);
-  setTarefa('Concluida')
+  setTarefa('Concluida ✔')
   setTema(true)
 
-  if (tarefa === 'Concluida') {
+  if (tarefa === 'Concluida ✔') {
     setTarefa('Concluir')
     setTema(false)
   }
   else{
 
-    setTarefa('Concluida') 
+    setTarefa('Concluida ✔') 
     setTema(true) 
   }
 

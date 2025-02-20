@@ -5,12 +5,12 @@
   text-align: center;
 }
 
-header{
+header {
   display: flex;
-flex-wrap: wrap;
-justify-content: center;  
-margin-top: 5%;
-margin-bottom: 10%;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 5%;
+  margin-bottom: 10%;
 }
 
 h1 {
@@ -18,8 +18,10 @@ h1 {
   line-height: 1.1;
 }
 
-
-
+.rodape {
+  display: flex;
+  flex-direction: row;
+}
 
 .logo {
   height: 6em;
@@ -48,4 +50,3 @@ h1 {
     animation: logo-spin infinite 20s linear;
   }
 }
-
