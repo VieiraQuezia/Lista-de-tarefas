@@ -1,0 +1,71 @@
+
+
+.bloco_Concluida{
+
+    padding: 3%;
+    display: flex;
+
+    justify-content:space-between;
+    align-items: center;
+
+    border: 2px solid ;
+    border-radius: 10px;
+    width: 40%;
+    margin-bottom: 3%;
+
+  
+    p{
+        text-decoration: line-through;
+        color: rgb(98, 219, 22);
+    }
+
+    button{
+        border-radius: 8px;
+        border: 1px solid transparent;
+        padding: 0.6em 1.2em;
+        font-size: 1em;
+        font-weight: 500;
+        font-family: inherit;
+        cursor: pointer;
+background-color: rgb(64, 66, 68);
+    }
+}
+.bloco_Concluir{
+
+    padding: 3%;
+    display: flex;
+
+    justify-content:space-between;
+    align-items: center;
+
+    border: 2px solid ;
+    border-radius: 10px;
+    width: 40%;
+
+    margin-bottom: 3%;
+
+
+
+  
+    p{
+        text-decoration: none;
+      color:  whitesmoke ;
+        
+    }
+
+    button{
+        border-radius: 8px;
+        border: 1px solid transparent;
+        padding: 0.6em 1.2em;
+        font-size: 1em;
+        font-weight: 500;
+        font-family: inherit;
+        cursor: pointer;
+background-color: rgb(59, 143, 218);
+    }
+}
+
+
+
+
+

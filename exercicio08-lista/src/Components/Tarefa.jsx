@@ -1,7 +1,5 @@
 import { useState } from "react";
-
-import '../components/botao.css'
-import "./Usuarios.css";
+import './Tarefa.css'
 
 function Tarefa(props) {
 const [tema, setTema] = useState(false);
@@ -11,13 +9,13 @@ const Botao = () => {setTema(!tema);
   setTarefa('Concluida')
   setTema(true)
 
-  if (seguir === 'Concluida') {
-    setSeguir('Concluida')
+  if (tarefa === 'Concluida') {
+    setTarefa('Concluir')
     setTema(false)
   }
   else{
 
-    setTarefa('Concluir') 
+    setTarefa('Concluida') 
     setTema(true) 
   }
 
@@ -25,16 +23,13 @@ const Botao = () => {setTema(!tema);
 return (
     <>
 
-     <nav className="bloco">
+
+     <nav className={tema ? "bloco_Concluida" : "bloco_Concluir"}>
 
     
-          <h3><p>{props.tarefa}</p></h3>
+          <p>{props.tarefa}</p>
 
-          <button className={tema ? "Concluida" : "Concluida"} onClick={Tarefa}>  {tarefa}  </button>
-
-
-
-
+          <button  onClick={Botao}>  {tarefa}  </button>
 
           </nav>
 
