@@ -9,8 +9,8 @@ header {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  margin-top: 5%;
-  margin-bottom: 10%;
+  /* margin-top: 5%; */
+  margin-bottom: 5%;
 }
 
 h1 {
@@ -21,7 +21,10 @@ h1 {
 .rodape {
   display: flex;
   flex-direction: row;
-}
+  margin-bottom: -5%;
+  margin-left: -10%;
+  margin-right: -9.3%;
+ }
 
 .logo {
   height: 6em;
