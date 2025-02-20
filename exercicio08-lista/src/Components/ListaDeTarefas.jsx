@@ -6,11 +6,11 @@ function Lista() {
         <>
 
 <article className="blocos">
-         <Tarefa tarefa = 'lavar a louça'/>
-         <Tarefa tarefa = 'limpar a casa'/>
-         <Tarefa tarefa = 'estudar para a prova de matemática'/>
-         <Tarefa tarefa = 'passear com o Nene'/>
-         <Tarefa tarefa = 'fazer o almoço qnd chegar em casa'/>
+         <Tarefa tarefa = 'Lavar a louça'/>
+         <Tarefa tarefa = 'Limpar a casa'/>
+         <Tarefa tarefa = 'Estudar para a prova de matemática'/>
+         <Tarefa tarefa = 'Passear com o Nene'/>
+         <Tarefa tarefa = 'Fazer o almoço quando chegar em casa'/>
          </article>
         </>
     )
